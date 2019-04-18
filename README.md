@@ -5,9 +5,9 @@ the layout is supposed to be:
 - title
   - my name and what i do
 - projects
-  -grid of projects that would link to separte project pages
+  - grid of projects that would link to separte project pages
 - about me
-  -More of what i do why i do...
+  - More of what i do why i do...
 - contact me
   - exactly what youd expect...
 
