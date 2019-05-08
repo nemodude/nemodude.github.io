@@ -19,9 +19,35 @@ body{
 }
 
 .aboutMe{
-    grid-area: aM
+    grid-area: aM;
     display: grid;
-    
+    grid-template-columns: auto 1px auto;
+    grid-template-rows: auto auto; 
+
+    grid-template-areas: 
+    "amt . ."
+    "amp . amc";
+}
+
+.aboutMeTitle {
+    grid-area: amt;
+}
+
+.aboutMePic {
+    grid-area: amp;
+    /* padding-right: ; */
+
+    /* picture will be here for now, will move later to styling page */
+    background-image: url("../img/datBoi.jpg");
+    background-position: center; /* Center the image */
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+.aboutMeContent {
+    grid-area: amc;
 }
 
 .projects {
@@ -58,7 +84,6 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
 
 .projectContent > div:hover{

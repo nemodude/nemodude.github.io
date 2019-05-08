@@ -1,3 +1,2 @@
-#nothingIsWorking
-here can be found my portfolio
-
+# boilerPlate
+basic starting file structure for Umass Dartmouth
