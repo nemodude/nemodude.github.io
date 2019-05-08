@@ -1,5 +1,4 @@
 body{
-    background-color: black;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -14,36 +13,285 @@ body{
 }
 
 .aboutMe{
-    background-color: rgb(21, 21, 21);
-    color: white;
+    background-color: rgb(38, 38, 38);
+    color: #F2EFD4;
     /* padding-top: 5em; */
     padding-bottom: 5em;
     padding-left: 9em;
 }
 
-.container2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-}
-
-.title {
-    font-size: .5em;
-}
-
-/* .projects > h2 {
-    padding-left: 9em;
-} */
 
 .projects > p {
-    color: white;
+    color: #F2EFD4;
+
 }
 
-.container2 > div {
-/* border: 1px solid black; */
-background-color: lightgrey;
+/* ---------- 3D Modelling -------------------------------- */
+
+.p1 {
+    background-image: url("../img/3dModelingPic.png");
+    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+    /* transition code for background shrink */
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
 }
+
+.p1:hover {
+    background-image: url("../img/3dModelingPic.png");
+    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    /* makes the curser turn into a pointer...self explanitory */
+    cursor: pointer; 
+    
+    /* shrink background on hover */
+    background-size: 90% 90%; 
+    /* opacity: 1.5; */
+    
+}
+/* -------------Jewelry Metals----------------------------- */
+
+.p2 {
+    background-image: url("../img/90");
+    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+    /* transition code for background shrink */
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+.p2:hover {
+    background-image: url("../img/tenor.gif");
+    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    /* makes the curser turn into a pointer...self explanitory */
+    cursor: pointer; 
+    
+    /* shrink background on hover */
+    background-size: 90% 90%; 
+    /* opacity: 1.5; */
+    
+}
+/* ------------ Pins ------------------------------------- */
+
+.p3 {
+    background-image: url("../img/pinThumb.jpg");
+    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+    /* transition code for background shrink */
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+.p3:hover {
+    background-image: url("../img/pinThumb.jpg");
+    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    /* makes the curser turn into a pointer...self explanitory */
+    cursor: pointer; 
+    
+    /* shrink background on hover */
+    background-size: 90% 90%; 
+    /* opacity: 1.5; */
+    
+}
+
+/* ---------- Plaques ----------------------------------- */
+
+.p4 {
+    background-image: url("../img/plaque1.png");
+    background-position: center; /* Center the image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+
+    /* background-size: 100% 100%; */
+
+    /* transition code for background shrink */
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+.p4:hover {
+    background-image: url("../img/plaque2.png");
+    background-position: center; /* Center the image */
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    /* makes the curser turn into a pointer...self explanitory */
+    cursor: pointer; 
+
+    /* shrink background on hover */
+    background-size: 90% 90%; 
+    /* opacity: 1.5; */
+    
+}
+
+/* ---------- Longboard Mods----------------------------------- */
+
+.p5 {
+    background-image: url("../img/longBMods.jpg");
+    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+    /* transition code for background shrink */
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+.p5:hover {
+    background-image: url("../img/longBMods.jpg");
+    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    /* makes the curser turn into a pointer...self explanitory */
+    cursor: pointer; 
+    
+    /* shrink background on hover */
+    background-size: 90% 90%; 
+    /* opacity: 1.5; */
+    
+}
+
+/* ---------- School Projects ----------------------------------- */
+
+.p6 {
+    background-image: url("../img/ledPoster.jpg");
+    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+    /* transition code for background shrink */
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+.p6:hover {
+    background-image: url("../img/ledPoster.jpg");
+    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    /* makes the curser turn into a pointer...self explanitory */
+    cursor: pointer; 
+    
+    /* shrink background on hover */
+    background-size: 90% 90%; 
+    /* opacity: 1.5; */
+    
+}
+
+/* ---------- Fab Lab Projects ----------------------------------- */
+
+.p7 {
+    background-image: url("../img/3dModelingPic.png");
+    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+    /* transition code for background shrink */
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+.p7:hover {
+    background-image: url("../img/3dModelingPic.png");
+    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    /* makes the curser turn into a pointer...self explanitory */
+    cursor: pointer; 
+    
+    /* shrink background on hover */
+    background-size: 90% 90%; 
+    /* opacity: 1.5; */
+    
+}
+
+/* ---------- Fancy Lamps ----------------------------------- */
+
+.p8 {
+    background-image: url("../img/lampOfFancy.jpeg");
+    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+    /* transition code for background shrink */
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+}
+
+.p8:hover {
+    background-image: url("../img/lampOfFancy.jpeg");
+    background-position: center; /* Center the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    /* makes the curser turn into a pointer...self explanitory */
+    cursor: pointer; 
+    
+    /* shrink background on hover */
+    background-size: 90% 90%; 
+    /* opacity: 1.5; */
+    
+}
+
+/* ---------- end of big boi section... ----------------------------------- */
+
+
 
 h1 {
     font-size: 3em;
@@ -51,10 +299,11 @@ h1 {
 
 h2 {
     font-size: 2em;
-    color: #89CA8D;
+    color: #59BFB5;
 }
 
 .contactMe {
-    color: white;
+    color: #F2EFD4;
     padding-left: 9em;
 }
+
