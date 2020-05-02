@@ -97,7 +97,7 @@
     grid-template-columns: 1fr 2fr;
     grid-template-areas: 
     "ct ct"
-    "mI yI";
+    "mI mI";
 }
 
 .contactTop {
@@ -108,9 +108,10 @@
     grid-area: mI;
 }
 
-.yourInfo {
+/* .yourInfo {
     grid-area: yI;
-}
+} */
+
 
 /* --------------------Props page------------------------- */
 #propPage .body{
