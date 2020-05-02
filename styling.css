@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: black;
 }
 
 .header {
@@ -20,293 +21,45 @@ body{
     padding-left: 9em;
 }
 
-
 .projects > p {
     color: #F2EFD4;
 }
 
-.projects > h3 {
-    font-weight: 400;
+.project-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    background-color: #59BFB5;
+    
 }
-/* all project hover effects */
-
-
-/* ---------- 3D Modelling -------------------------------- */
-
-.p1 {
-    background-image: url("../nemodude.github.io/img/3dModelingPic.png");
-    background-position: center; /* Center the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    background-size: 100% 100%;
-
-    /* transition code for background shrink */
-    -webkit-transition: all 1s ease;
-       -moz-transition: all 1s ease;
-         -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-            transition: all 1s ease;
+.project-item > h3{
+    font-weight: 500;
+    position: absolute;
+    z-index: 1;
+    padding-left: 1em;
 }
 
-.p1:hover {
-    background-image: url("../nemodude.github.io/img/3dModelingPic.png");
-    background-position: center; /* Center the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-   
+.project-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+    transition: transform 400ms ease-out;
+    z-index: -1;
+}
+.project-image:hover {
     /* makes the curser turn into a pointer...self explanitory */
     cursor: pointer; 
     
     /* shrink background on hover */
-    background-size: 90% 90%; 
-    /* opacity: 1.5; */
-
-    color: #59BFB5;
-    
-}
-/* -------------Jewelry Metals----------------------------- */
-
-.p2 {
-    background-image: url("../nemodude.github.io/img/jewelryMetal1.jpg");
-    background-position: center; /* Center the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    background-size: 100% 100%;
-
-    /* transition code for background shrink */
-    -webkit-transition: all 1s ease;
-       -moz-transition: all 1s ease;
-         -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-            transition: all 1s ease;
-}
-
-.p2:hover {
-    background-image: url("../nemodude.github.io/img/jewelryMetal2.jpg");
-    background-position: center; /* Center the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-    /* makes the curser turn into a pointer...self explanitory */
-    cursor: pointer; 
-    
-    /* shrink background on hover */
-    background-size: 90% 90%; 
+    transform: scale(.90);
     /* opacity: 1.5; */
     
     color: #59BFB5;
 }
-/* ------------ Pins ------------------------------------- */
-
-.p3 {
-    background-image: url("../nemodude.github.io/img/pinThumb.jpg");
-    background-position: center; /* Center the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    background-size: 100% 100%;
-
-    /* transition code for background shrink */
-    -webkit-transition: all 1s ease;
-       -moz-transition: all 1s ease;
-         -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-            transition: all 1s ease;
-}
-
-.p3:hover {
-    background-image: url("../nemodude.github.io/img/pinThumb.jpg");
-    background-position: center; /* Center the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-    /* makes the curser turn into a pointer...self explanitory */
-    cursor: pointer; 
-    
-    /* shrink background on hover */
-    background-size: 90% 90%; 
-    /* opacity: 1.5; */
-    
-    color: #59BFB5;
-}
-
-/* ---------- Plaques ----------------------------------- */
-
-.p4 {
-    background-image: url("../nemodude.github.io/img/plaque1.png");
-    background-position: center; /* Center the image */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 100% 100%; 
-
-    /* background-size: 100% 100%; */
-
-    /* transition code for background shrink */
-    -webkit-transition: all 1s ease;
-       -moz-transition: all 1s ease;
-         -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-            transition: all 1s ease;
-}
-
-.p4:hover {
-    background-image: url("../nemodude.github.io/img/plaque2.png");
-    background-position: center; /* Center the image */
-    background-size: contain;
-    background-repeat: no-repeat;
-   
-    /* makes the curser turn into a pointer...self explanitory */
-    cursor: pointer; 
-
-    /* shrink background on hover */
-    background-size: 90% 90%; 
-    /* opacity: 1.5; */
-    
-    color: #59BFB5;
-}
-
-/* ---------- Longboard Mods----------------------------------- */
-
-.p5 {
-    background-image: url("../nemodude.github.io/img/longBMods.jpg");
-    background-position: center; /* Center the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    background-size: 100% 100%;
-
-    /* transition time for background shrink */
-    -webkit-transition: all 1s ease;
-       -moz-transition: all 1s ease;
-         -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-            transition: all 1s ease;
-}
-
-.p5:hover {
-    background-image: url("../nemodude.github.io/img/longBMods.jpg");
-    background-position: center; /* Center the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-    /* makes the curser turn into a pointer...self explanitory */
-    cursor: pointer; 
-    
-    /* shrink background on hover */
-    background-size: 90% 90%; 
-    /* opacity: 1.5; */
-
-    color: #59BFB5;
-    
-}
-
-/* ---------- School Projects ----------------------------------- */
-
-.p6 {
-    background-image: url("../nemodude.github.io/img/ledPoster.jpg");
-    background-position: center; /* Center the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    background-size: 100% 100%;
-
-    /* transition code for background shrink */
-    -webkit-transition: all 1s ease;
-       -moz-transition: all 1s ease;
-         -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-            transition: all 1s ease;
-}
-
-.p6:hover {
-    background-image: url("../nemodude.github.io/img/ledPoster.jpg");
-    background-position: center; /* Center the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-    /* makes the curser turn into a pointer...self explanitory */
-    cursor: pointer; 
-    
-    /* shrink background on hover */
-    background-size: 90% 90%; 
-    /* opacity: 1.5; */
-    
-    color: #59BFB5;
-}
-
-/* ---------- Fab Lab Projects ----------------------------------- */
-
-.p7 {
-    background-image: url("../nemodude.github.io/img/3dModelingPic.png");
-    background-position: center; /* Center the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    background-size: 100% 100%;
-
-    /* transition code for background shrink */
-    -webkit-transition: all 1s ease;
-       -moz-transition: all 1s ease;
-         -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-            transition: all 1s ease;
-}
-
-.p7:hover {
-    background-image: url("../nemodude.github.io/img/3dModelingPic.png");
-    background-position: center; /* Center the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-    /* makes the curser turn into a pointer...self explanitory */
-    cursor: pointer; 
-    
-    /* shrink background on hover */
-    background-size: 90% 90%; 
-    /* opacity: 1.5; */
-    
-    color: #59BFB5;
-}
-
-/* ---------- Fancy Lamps ----------------------------------- */
-
-.p8 {
-    background-image: url("../nemodude.github.io/img/lampOfFancy.jpeg");
-    background-position: center; /* Center the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    background-size: 100% 100%;
-
-    /* transition code for background shrink */
-    -webkit-transition: all 1s ease;
-       -moz-transition: all 1s ease;
-         -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-            transition: all 1s ease;
-}
-
-.p8:hover {
-    background-image: url("../nemodude.github.io/img/lampOfFancy.jpeg");
-    background-position: center; /* Center the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-    /* makes the curser turn into a pointer...self explanitory */
-    cursor: pointer; 
-    
-    /* shrink background on hover */
-    background-size: 90% 90%; 
-    /* opacity: 1.5; */
-    
-    color: #59BFB5;
-}
-
-/* ---------- end of big boi section... ----------------------------------- */
-
-
 
 h1 {
     font-size: 3em;
@@ -322,3 +75,64 @@ h2 {
     padding-left: 9em;
 }
 
+/* --------------------------------------------------------------------------- */
+
+.galleryA {
+    background-color: rgb(38, 38, 38);
+}
+
+.galleryATop {
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+    transition: transform 400ms ease-out;
+    z-index: -1;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+    margin: 1rem;
+    padding: 1em;
+	
+
+}
+
+.gallery-item > h3 {
+    position: absolute;
+    z-index: 1;
+}
+
+.gallery-item > p {
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+
+
+
+/* unvisited link */
+a:link {
+    color: #F2EFD4;
+  }
+  
+  /* visited link */
+ a:visited {
+    color:#F2EFD4
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #59BFB5;
+  }
+  
+  /* selected link */
+  /* a:active {
+    color: #F2EFD4;
+  } */
